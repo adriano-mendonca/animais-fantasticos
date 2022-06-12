@@ -47,7 +47,13 @@ body {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: .1em;
+  transition: .25s;
 }
+
+.menu li a:hover {
+  color:white;
+}
+
 
 .grid-section {
   grid-column: 2 / 4;
